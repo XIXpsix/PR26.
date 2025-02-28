@@ -10,7 +10,7 @@ namespace PR26
     {
         static void Main(string[] args)
         {
-            Car avto = new avto();
+            Car avto = new Car();
             avto.Model = "BMW";
             avto.Year = 888;
             Console.WriteLine(avto);
